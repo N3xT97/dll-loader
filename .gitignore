@@ -1,0 +1,36 @@
+# === Rust ===
+/target/
+**/*.rs.bk
+
+# === Cargo ===
+/Cargo.lock
+/.cargo/
+
+# === Binaries ===
+*.exe
+*.dll
+*.so
+*.dylib
+
+# === IDEs ===
+# VS Code
+.vscode/
+/.vscode/*
+
+# JetBrains (CLion, IntelliJ, etc)
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Coverage ===
+/coverage/
+*.profraw
+
+# === Byproducts ===
+*.rlib
+*.rmeta
